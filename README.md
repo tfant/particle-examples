@@ -12,3 +12,4 @@ This is an attempt to consolidate working and regularly used examples can is per
 ####Platform neutral
 
 - [Allows the usage of SD card with any devices](sd-library)
+- [Handles dropped wifi or lost connection so device will not hang in a weird state](wifi-auto-reconnect)
