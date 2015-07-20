@@ -17,21 +17,15 @@ Mon Jul 20 06:27:49 2015
 USB power supply removed
 Powering on after some Time
 
-Mon Jul 20 06:27:45 2015
-Mon Jul 20 06:27:45 2015
-Mon Jul 20 06:27:45 2015
-Mon Jul 20 06:27:45 2015
-Mon Jul 20 06:27:45 2015
-Mon Jul 20 06:27:46 2015
-Mon Jul 20 06:27:46 2015
-Mon Jul 20 06:27:46 2015
-Mon Jul 20 06:27:46 2015
-Mon Jul 20 06:27:46 2015
-Mon Jul 20 06:27:47 2015
-Mon Jul 20 06:27:47 2015
-Mon Jul 20 06:27:47 2015
-M
-
+Mon Jul 20 06:52:57 2015
+Mon Jul 20 06:52:58 2015
+Mon Jul 20 06:52:58 2015
+Mon Jul 20 06:52:58 2015
+Mon Jul 20 06:52:58 2015
+Mon Jul 20 06:52:58 2015
+Mon Jul 20 06:52:59 2015
+Mon Jul 20 06:52:59 2015
+Mon Jul 20 06:52:59 2015
 */
 SYSTEM_MODE(MANUAL);
 
