@@ -11,7 +11,7 @@ Normally-opened button
 Setup:
 
 Hook up the VBAT supply
-Hook up a button to WKP and 3.3V
+Hook up a button to D0 (or any other GPIO but remember to change the code!) and 3.3V
 Hold on to the button and power up the Photon. This will tell the Photon to connect to Wifi and sync time
 If you have not entered Wifi credentials, please do so before that.
 Once you see that the D7 led is blinking, open a serial terminal at 9600baud and watch it print out the time stamp

@@ -31,7 +31,7 @@ SYSTEM_MODE(MANUAL);
 
 void setup(){
   pinMode(D7,OUTPUT);
-  pinMode(WKP,INPUT_PULLDOWN);
+  pinMode(D0,INPUT_PULLDOWN); //<--- Any GPIO pin works fine too
   Serial.begin(9600);
   delay(1000);
   if(digitalRead(WKP) == HIGH){
