@@ -29,12 +29,14 @@ Mon Jul 20 06:52:59 2015
 */
 SYSTEM_MODE(MANUAL);
 
+#define wifiButton (D0)
+
 void setup(){
   pinMode(D7,OUTPUT);
-  pinMode(D0,INPUT_PULLDOWN); //<--- Any GPIO pin works fine too
+  pinMode(wifiButton,INPUT_PULLDOWN); //<--- Any GPIO pin works fine too
   Serial.begin(9600);
   delay(1000);
-  if(digitalRead(WKP) == HIGH){
+  if(digitalRead(wifiButton) == HIGH){
     Spark.connect();
     Spark.syncTime();
   }
