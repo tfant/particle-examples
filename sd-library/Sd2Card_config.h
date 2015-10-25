@@ -4,10 +4,10 @@
 #include "application.h"
 //#include "spark_wiring.h"
 
-#define SD_SPI_NUMBER	2					/* Specify HardwareSPI number */
+#define SD_SPI_NUMBER	3					/* Specify HardwareSPI number */
 
 /* For Maple families, Maple rev5, etc */
-#	define SD_CHIP_SELECT_PIN	A2			/* for Spark Core SPI CS pin */
+#	define SD_CHIP_SELECT_PIN	D2			/* for Spark Core SPI CS pin */
 	//#define SPI_LOW_CLOCK	SPI_281_250KHZ	/* = SPI_HALF_SPEED */
 #	define SPI_LOW_CLOCK	SPI_4_5MHZ		/* = SPI_HALFL_SPEED */
 
